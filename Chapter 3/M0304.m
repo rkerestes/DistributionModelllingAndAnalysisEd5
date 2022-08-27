@@ -1,4 +1,4 @@
-%Distribution System Modelling and Analysis, Example 3.4
+%Distribution System Modelling and Analysis, Example 3.4 Revised Routine
 %Written by William Kersting and Robert Kerestes
 clear
 
@@ -9,7 +9,7 @@ ZL = [99999;75+j*45;50+j*22.5;45+j*25;80+j*42.5]
 
 Vs = 7200; 
 
-V = [7200;7200;7200;7200;7200]
+V = [7200;7200;7200;7200;6.8852*exp(j*-1.9837*pi/180)]
 IL = zeros(5,1)
 I = zeros(5,1)
 
@@ -33,4 +33,8 @@ IL = IL*Ratio;
 [Iline_mag,Iline_phase] = rec2pol(I)
 [IL_mag,IL_phase] = rec2pol(IL)
 
-Vrop = abs(V_mag(1)-V_mag(5))/V_mag(1)*100
+% [VL_mag,VL_phase] = rec2pol(VL);
+
+% fprintf('Error = %.5f\n\n',Error)
+% fprintf('VL = %.1f < %.2f\n\n',VL_mag,VL_phase)
+% fprintf('IL = %.1f < %.2f\n\n',IL_mag,IL_phase)
