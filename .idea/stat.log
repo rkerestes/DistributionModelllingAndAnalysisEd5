@@ -1,3 +1,6 @@
 {"ts":1741603079876,"action":"PROJECT_OPENED","tags":{"PROJECT_NAME":"DistributionModelllingAndAnalysisEd5"}}
 {"ts":1741603080491,"action":"FILE_OPENED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"7"}}
 {"ts":1741603099160,"action":"IDE_DEACTIVATED"}
+{"ts":1741604211736,"action":"IDE_ACTIVATED"}
+{"ts":1741604215392,"action":"IDE_DEACTIVATED"}
+{"ts":1741604215503,"action":"PROJECT_CLOSED","tags":{"PROJECT_NAME":"DistributionModelllingAndAnalysisEd5"}}
