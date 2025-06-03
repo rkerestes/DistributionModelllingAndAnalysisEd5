@@ -48,3 +48,6 @@
 {"ts":1747995334680,"action":"IDE_DEACTIVATED"}
 {"ts":1747995338182,"action":"IDE_ACTIVATED"}
 {"ts":1747995347759,"action":"PROJECT_CLOSED","tags":{"PROJECT_NAME":"DistributionModelllingAndAnalysisEd5"}}
+{"ts":1748614604795,"action":"FILE_OPENED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"7"}}
+{"ts":1748614604790,"action":"PROJECT_OPENED","tags":{"PROJECT_NAME":"DistributionModelllingAndAnalysisEd5"}}
+{"ts":1748614633515,"action":"PROJECT_CLOSED","tags":{"PROJECT_NAME":"DistributionModelllingAndAnalysisEd5"}}
